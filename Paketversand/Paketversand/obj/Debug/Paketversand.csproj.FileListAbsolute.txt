@@ -1,0 +1,7 @@
+H:\Documents\code\Paketversand\Paketversand\bin\Debug\Paketversand.exe.config
+H:\Documents\code\Paketversand\Paketversand\bin\Debug\Paketversand.exe
+H:\Documents\code\Paketversand\Paketversand\bin\Debug\Paketversand.pdb
+H:\Documents\code\Paketversand\Paketversand\obj\Debug\Paketversand.csprojAssemblyReference.cache
+H:\Documents\code\Paketversand\Paketversand\obj\Debug\Paketversand.csproj.CoreCompileInputs.cache
+H:\Documents\code\Paketversand\Paketversand\obj\Debug\Paketversand.exe
+H:\Documents\code\Paketversand\Paketversand\obj\Debug\Paketversand.pdb

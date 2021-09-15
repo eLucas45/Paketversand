@@ -8,8 +8,7 @@ namespace Paketversand
 {
     class Program
     {
-                //if(int.TryParse(url, out int result))
-                    //this.DoSomethingUsefull
+
         /// <summary>
         /// Main method; called on startup
         /// </summary>
@@ -17,10 +16,13 @@ namespace Paketversand
         static void Main(string[] args)
         {
             //Code here
-            Console.Title = "Paketversandrechner für Hermes";
+            Console.Title = "Paketversandrechner";
             Explanation();
-            requestData();
-            noClose();
+
+            //string[] PackageDim = new string[2];
+            string[] PackageDim = RequestData();
+            //WorkWithData();
+            NoClose();
         }
         /// <summary>
         /// Displays the Explanation of what the Program does
@@ -34,15 +36,39 @@ namespace Paketversand
         /// <summary>
         /// Request Data from User
         /// </summary>
-        public static void requestData()
+        public static string[] RequestData()
         {
-
+            //string[] Dim = new string[2];
+            
+            Console.Write("Bitte gebe die Breite des Pakets in cm ein: ");
+            string inputWidth = Console.ReadLine();
+            Console.Write("Bitte gebe die Länge des Pakets in cm ein: ");
+            string inputLength = Console.ReadLine();
+            //PackageDim
+            //Dim[0] = inputWidth;
+            //Dim[1] = inputLength;
+            string[] Dim = { inputWidth, inputLength };
+            Console.Write(Dim[0] + " x " + Dim[1]);
+            return Dim;
         }
 
         /// <summary>
-        /// keeps the Program from closing
+        /// Checks if a String / User input can be converted to an int
         /// </summary>
-        public static void noClose()
+        /// <param name="input"></param>
+        /// <returns></returns>
+        public static bool CheckIfConvertable(String input)
+        {
+            bool isConvertable = false;
+            if (int.TryParse(input, out _))
+                isConvertable = true;
+            return isConvertable;
+        }
+
+        /// <summary>
+        /// Keeps the Program from closing
+        /// </summary>
+        public static void NoClose()
         {
             Console.ReadLine();
         }

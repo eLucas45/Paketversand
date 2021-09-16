@@ -27,7 +27,10 @@ namespace Paketversand
             NoClose();
         }
 
-        public static 
+        public static void WorkWithData()
+        {
+
+        }
 
 
         /// <summary>
@@ -52,7 +55,8 @@ namespace Paketversand
             //Dim[0] = inputWidth;
             //Dim[1] = inputLength;
             int[] Dim = { inputWidth, inputLength };
-            Console.Write(Dim[0] + " x " + Dim[1]);
+            //Console.Write(Dim[0] + " x " + Dim[1]);
+            Console.WriteLine($"{Dim[0]} x {Dim[1]}");
             return Dim;
         }
         public static int ReqLength()

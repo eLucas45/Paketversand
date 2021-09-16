@@ -12,3 +12,10 @@ C:\Users\ericl\Documents\Visual Studio\SchoolCode\Paketversand\Paketversand\obj\
 C:\Users\ericl\Documents\Visual Studio\SchoolCode\Paketversand\Paketversand\obj\Debug\Paketversand.csproj.CoreCompileInputs.cache
 C:\Users\ericl\Documents\Visual Studio\SchoolCode\Paketversand\Paketversand\obj\Debug\Paketversand.exe
 C:\Users\ericl\Documents\Visual Studio\SchoolCode\Paketversand\Paketversand\obj\Debug\Paketversand.pdb
+H:\Documents\code\Paketversand\Paketversand\Paketversand\bin\Debug\Paketversand.exe.config
+H:\Documents\code\Paketversand\Paketversand\Paketversand\bin\Debug\Paketversand.exe
+H:\Documents\code\Paketversand\Paketversand\Paketversand\bin\Debug\Paketversand.pdb
+H:\Documents\code\Paketversand\Paketversand\Paketversand\obj\Debug\Paketversand.csprojAssemblyReference.cache
+H:\Documents\code\Paketversand\Paketversand\Paketversand\obj\Debug\Paketversand.csproj.CoreCompileInputs.cache
+H:\Documents\code\Paketversand\Paketversand\Paketversand\obj\Debug\Paketversand.exe
+H:\Documents\code\Paketversand\Paketversand\Paketversand\obj\Debug\Paketversand.pdb

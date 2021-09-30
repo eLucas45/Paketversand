@@ -74,6 +74,7 @@ namespace Paketversand
                 Console.Write("Bitte gebe die Länge des Pakets in cm ein: ");
                 inputLength = Console.ReadLine();
             }
+            Lenth = int.Parse(inputLength);
             return Lenth;
         }
 
@@ -90,6 +91,7 @@ namespace Paketversand
                 Console.Write("Bitte gebe die Breite des Pakets in cm ein: ");
                 inputWidth = Console.ReadLine();
             }
+            Width = int.Parse(inputWidth);
             return Width;
         }
 

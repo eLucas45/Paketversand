@@ -19,3 +19,10 @@ H:\Documents\code\Paketversand\Paketversand\Paketversand\obj\Debug\Paketversand.
 H:\Documents\code\Paketversand\Paketversand\Paketversand\obj\Debug\Paketversand.csproj.CoreCompileInputs.cache
 H:\Documents\code\Paketversand\Paketversand\Paketversand\obj\Debug\Paketversand.exe
 H:\Documents\code\Paketversand\Paketversand\Paketversand\obj\Debug\Paketversand.pdb
+\\files.schule.local\homes\Documents\code\Paketversand\Paketversand\Paketversand\bin\Debug\Paketversand.exe.config
+\\files.schule.local\homes\Documents\code\Paketversand\Paketversand\Paketversand\bin\Debug\Paketversand.exe
+\\files.schule.local\homes\Documents\code\Paketversand\Paketversand\Paketversand\bin\Debug\Paketversand.pdb
+\\files.schule.local\homes\Documents\code\Paketversand\Paketversand\Paketversand\obj\Debug\Paketversand.csprojAssemblyReference.cache
+\\files.schule.local\homes\Documents\code\Paketversand\Paketversand\Paketversand\obj\Debug\Paketversand.csproj.CoreCompileInputs.cache
+\\files.schule.local\homes\Documents\code\Paketversand\Paketversand\Paketversand\obj\Debug\Paketversand.exe
+\\files.schule.local\homes\Documents\code\Paketversand\Paketversand\Paketversand\obj\Debug\Paketversand.pdb

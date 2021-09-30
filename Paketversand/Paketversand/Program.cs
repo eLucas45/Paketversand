@@ -16,22 +16,31 @@ namespace Paketversand
         static void Main(string[] args)
         {
             int MaterialStrength = 3;
-            double Density;
+            double Density = 0.0007;
             Console.Title = "Paketversandrechner";
             Explanation();
 
             //string[] PackageDim = new string[2];
             //PackageDim = Width + Length
             int[] PackageDim = RequestData(MaterialStrength);
-            WorkWithData(PackageDim);
+            double[] result = WorkWithData(PackageDim, Density);
+            Console.WriteLine(result[1] + result[0]);
+            //^This is a test
             
             NoClose();
         }
 
-        public static void WorkWithData(int[] Dim)
+        public static double[] WorkWithData(int[] Dim, double den)
         {
-            Array.Sort(Dim, 0, 2);
+            Array.Sort(Dim, 0, 3);
+            Console.WriteLine($"{Dim[0]}cm x {Dim[1]}cm x {Dim[2]}cm");
+            double result2 = Dim[0] * Dim[1] * Dim[2] * den; //kg
+            Console.WriteLine($"{result2}kg");
+            int sum = Dim[0] + Dim[2];
+            double[] result = { result2, sum };
+            return result;
         }
+        
 
 
         /// <summary>
@@ -57,7 +66,7 @@ namespace Paketversand
             //Dim[1] = inputLength;
             int[] Dim = { inputWidth, inputLength, Materialstr };
             //Console.Write(Dim[0] + " x " + Dim[1]);
-            Console.WriteLine($"{Dim[0]} x {Dim[1]} x {Dim[2]}");
+            Console.WriteLine($"{Dim[0]}cm x {Dim[1]}cm x {Dim[2]}cm");
             return Dim;
         }
         

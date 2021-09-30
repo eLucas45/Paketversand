@@ -15,21 +15,22 @@ namespace Paketversand
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            int MaterialStrength;
+            int MaterialStrength = 3;
             double Density;
             Console.Title = "Paketversandrechner";
             Explanation();
 
             //string[] PackageDim = new string[2];
             //PackageDim = Width + Length
-            int[] PackageDim = RequestData();
-            WorkWithData();
+            int[] PackageDim = RequestData(MaterialStrength);
+            WorkWithData(PackageDim);
+            
             NoClose();
         }
 
-        public static void WorkWithData()
+        public static void WorkWithData(int[] Dim)
         {
-
+            Array.Sort(Dim, 0, 2);
         }
 
 
@@ -45,7 +46,7 @@ namespace Paketversand
         /// <summary>
         /// Request Data from User
         /// </summary>
-        public static int[] RequestData()
+        public static int[] RequestData(int Materialstr)
         {
             //string[] Dim = new string[2];
             int inputWidth = ReqWidth();
@@ -54,29 +55,17 @@ namespace Paketversand
             //PackageDim
             //Dim[0] = inputWidth;
             //Dim[1] = inputLength;
-            int[] Dim = { inputWidth, inputLength };
+            int[] Dim = { inputWidth, inputLength, Materialstr };
             //Console.Write(Dim[0] + " x " + Dim[1]);
-            Console.WriteLine($"{Dim[0]} x {Dim[1]}");
+            Console.WriteLine($"{Dim[0]} x {Dim[1]} x {Dim[2]}");
             return Dim;
         }
+        
+        /// <summary>
+        /// Gets the Length from the user
+        /// </summary>
+        /// <returns></returns>
         public static int ReqLength()
-        {
-            int Length = 0;
-            Console.Write("Bitte gebe die Länge des Pakets in cm ein: ");
-            string inputLength = Console.ReadLine();
-            if (CheckIfConvertable(inputLength))
-            {
-                Length = int.Parse(inputLength);
-                return Length;
-            }
-            else
-            {
-                Length = ReqLength2();
-                return Length;
-            }
-        }
-
-        public static int ReqLength2()
         {
             int Lenth = 250;
             string inputLength = "this is text";
@@ -88,7 +77,11 @@ namespace Paketversand
             return Lenth;
         }
 
-        public static int ReqWidth2()
+        /// <summary>
+        /// Gets the Width from the user
+        /// </summary>
+        /// <returns></returns>
+        public static int ReqWidth()
         {
             int Width = 250;
             string inputWidth = "this is text";
@@ -101,26 +94,6 @@ namespace Paketversand
         }
 
 
-        /// <summary>
-        /// Gets the Width from the user
-        /// </summary>
-        /// <returns></returns>
-        public static int ReqWidth()
-        {
-            int Width = 0;
-            Console.Write("Bitte gebe die Breite des Pakets in cm ein: ");
-            string inputWidth = Console.ReadLine();
-            if (CheckIfConvertable(inputWidth))
-            {
-                Width = int.Parse(inputWidth);
-                return Width;
-            }
-            else
-            {
-                Width = ReqWidth2();
-                return Width;
-            }
-        }
 
         /// <summary>
         /// Checks if a String / User input can be converted to an int

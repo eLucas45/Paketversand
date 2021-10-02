@@ -1,0 +1,35 @@
+H:\Documents\code\Paketversand\Paketversand\bin\Debug\Paketversand.exe.config
+H:\Documents\code\Paketversand\Paketversand\bin\Debug\Paketversand.exe
+H:\Documents\code\Paketversand\Paketversand\bin\Debug\Paketversand.pdb
+H:\Documents\code\Paketversand\Paketversand\obj\Debug\Paketversand.csprojAssemblyReference.cache
+H:\Documents\code\Paketversand\Paketversand\obj\Debug\Paketversand.csproj.CoreCompileInputs.cache
+H:\Documents\code\Paketversand\Paketversand\obj\Debug\Paketversand.exe
+H:\Documents\code\Paketversand\Paketversand\obj\Debug\Paketversand.pdb
+C:\Users\ericl\Documents\Visual Studio\SchoolCode\Paketversand\Paketversand\bin\Debug\Paketversand.exe.config
+C:\Users\ericl\Documents\Visual Studio\SchoolCode\Paketversand\Paketversand\bin\Debug\Paketversand.exe
+C:\Users\ericl\Documents\Visual Studio\SchoolCode\Paketversand\Paketversand\bin\Debug\Paketversand.pdb
+C:\Users\ericl\Documents\Visual Studio\SchoolCode\Paketversand\Paketversand\obj\Debug\Paketversand.csproj.AssemblyReference.cache
+C:\Users\ericl\Documents\Visual Studio\SchoolCode\Paketversand\Paketversand\obj\Debug\Paketversand.csproj.CoreCompileInputs.cache
+C:\Users\ericl\Documents\Visual Studio\SchoolCode\Paketversand\Paketversand\obj\Debug\Paketversand.exe
+C:\Users\ericl\Documents\Visual Studio\SchoolCode\Paketversand\Paketversand\obj\Debug\Paketversand.pdb
+H:\Documents\code\Paketversand\Paketversand\Paketversand\bin\Debug\Paketversand.exe.config
+H:\Documents\code\Paketversand\Paketversand\Paketversand\bin\Debug\Paketversand.exe
+H:\Documents\code\Paketversand\Paketversand\Paketversand\bin\Debug\Paketversand.pdb
+H:\Documents\code\Paketversand\Paketversand\Paketversand\obj\Debug\Paketversand.csprojAssemblyReference.cache
+H:\Documents\code\Paketversand\Paketversand\Paketversand\obj\Debug\Paketversand.csproj.CoreCompileInputs.cache
+H:\Documents\code\Paketversand\Paketversand\Paketversand\obj\Debug\Paketversand.exe
+H:\Documents\code\Paketversand\Paketversand\Paketversand\obj\Debug\Paketversand.pdb
+\\files.schule.local\homes\Documents\code\Paketversand\Paketversand\Paketversand\bin\Debug\Paketversand.exe.config
+\\files.schule.local\homes\Documents\code\Paketversand\Paketversand\Paketversand\bin\Debug\Paketversand.exe
+\\files.schule.local\homes\Documents\code\Paketversand\Paketversand\Paketversand\bin\Debug\Paketversand.pdb
+\\files.schule.local\homes\Documents\code\Paketversand\Paketversand\Paketversand\obj\Debug\Paketversand.csprojAssemblyReference.cache
+\\files.schule.local\homes\Documents\code\Paketversand\Paketversand\Paketversand\obj\Debug\Paketversand.csproj.CoreCompileInputs.cache
+\\files.schule.local\homes\Documents\code\Paketversand\Paketversand\Paketversand\obj\Debug\Paketversand.exe
+\\files.schule.local\homes\Documents\code\Paketversand\Paketversand\Paketversand\obj\Debug\Paketversand.pdb
+C:\Users\ericl\Documents\Visual Studio\Paketversand\Paketversand\Paketversand\bin\Debug\Paketversand.exe.config
+C:\Users\ericl\Documents\Visual Studio\Paketversand\Paketversand\Paketversand\bin\Debug\Paketversand.exe
+C:\Users\ericl\Documents\Visual Studio\Paketversand\Paketversand\Paketversand\bin\Debug\Paketversand.pdb
+C:\Users\ericl\Documents\Visual Studio\Paketversand\Paketversand\Paketversand\obj\Debug\Paketversand.csproj.AssemblyReference.cache
+C:\Users\ericl\Documents\Visual Studio\Paketversand\Paketversand\Paketversand\obj\Debug\Paketversand.csproj.CoreCompileInputs.cache
+C:\Users\ericl\Documents\Visual Studio\Paketversand\Paketversand\Paketversand\obj\Debug\Paketversand.exe
+C:\Users\ericl\Documents\Visual Studio\Paketversand\Paketversand\Paketversand\obj\Debug\Paketversand.pdb

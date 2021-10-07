@@ -35,14 +35,55 @@ namespace Paketversand
             int[] PackageDim = RequestData(MaterialStrength);
             double[] result = WorkWithData(PackageDim, Density);
             //result2 = kg
-            switch (result2 <= 25)
+            string tooHeavy = "Das Paket ist nicht zu schwer um verschickt zu werden.";
+            bool tooHeavybool = false;
+            if(!(result[0] <= 25))
             {
-                case
+                tooHeavybool = true;
+                tooHeavy = "Das Paket ist zu schwer um verschickt zu werden.";
+            }
+            Console.WriteLine(tooHeavy);
+            if (!tooHeavybool)
+            {
+                returnPackageCost(result);
             }
             
             //Console.WriteLine($"{result[1]} {result[0]}");
         }
 
+        public static void returnPackageCost(double[] result)
+        {
+            double sum = result[1];
+            double price = 0;
+            string packtype;
+            if (sum <= 37)
+            {
+                price = 3.60;
+                packtype = "Päckchen";
+            }
+            else if(sum <= 50)
+            {
+                price = 4.30;
+                packtype = "S-Paket";
+            }
+            else if (sum <= 80)
+            {
+                price = 5.25;
+                packtype = "M-Paket";
+            }
+            else if(sum <= 120)
+            {
+                price = 10.15;
+                packtype = "L-Paket";
+            }
+            else
+            {
+                price = 0;
+                packtype = "Paket ist zu groß";
+            }
+            Console.WriteLine($"{packtype} für {price}€");
+
+        }
         public static bool ContinueCheck()
         {
             Console.Write("\nMöchten sie fortfahren? [J/n] ");
@@ -69,6 +110,7 @@ namespace Paketversand
             double result2 = Dim[0] * Dim[1] * Dim[2] * den; //kg
             Console.WriteLine($"Das Paket ist {result2}kg schwer.");
             int sum = Dim[0] + Dim[2];
+            /*
             String outinfo;
             switch (Dim[0] > Dim[1])
             {
@@ -80,6 +122,7 @@ namespace Paketversand
                     break;
             }
             Console.WriteLine(outinfo);
+             */
             double[] result = { result2, sum };
             return result;
         }

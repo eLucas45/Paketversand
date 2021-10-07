@@ -34,6 +34,12 @@ namespace Paketversand
         {
             int[] PackageDim = RequestData(MaterialStrength);
             double[] result = WorkWithData(PackageDim, Density);
+            //result2 = kg
+            switch (result2 <= 25)
+            {
+                case
+            }
+            
             //Console.WriteLine($"{result[1]} {result[0]}");
         }
 
@@ -63,6 +69,17 @@ namespace Paketversand
             double result2 = Dim[0] * Dim[1] * Dim[2] * den; //kg
             Console.WriteLine($"Das Paket ist {result2}kg schwer.");
             int sum = Dim[0] + Dim[2];
+            String outinfo;
+            switch (Dim[0] > Dim[1])
+            {
+                case true:
+                    outinfo = "Die Weite ist größer als die Länge";
+                    break;
+                default:
+                    outinfo = "Die Länge ist größer als die Weite";
+                    break;
+            }
+            Console.WriteLine(outinfo);
             double[] result = { result2, sum };
             return result;
         }
